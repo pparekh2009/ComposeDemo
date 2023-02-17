@@ -36,7 +36,7 @@ class MainActivity : ComponentActivity() {
                 Button(onClick = { startActivity(Intent(this@MainActivity, ListActivity::class.java)) }) {
                     Text(text = "List")
                 }
-                Button(onClick = { startActivity(Intent(this@MainActivity, ListActivity::class.java)) }) {
+                Button(onClick = { startActivity(Intent(this@MainActivity, MySootheActivity::class.java)) }) {
                     Text(text = "MySoothe")
                 }
             }
