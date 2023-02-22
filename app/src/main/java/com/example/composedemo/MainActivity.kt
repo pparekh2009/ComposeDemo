@@ -26,6 +26,9 @@ class MainActivity : ComponentActivity() {
                 Button(modifier = Modifier.padding(horizontal = 0.dp, vertical = 10.dp), onClick = { startActivity(Intent(this@MainActivity, MySootheActivity::class.java)) }) {
                     Text(text = "MySoothe")
                 }
+                Button(modifier = Modifier.padding(horizontal = 0.dp, vertical = 10.dp), onClick = { startActivity(Intent(this@MainActivity, WellnessActivity::class.java)) }) {
+                    Text(text = "Wellness App")
+                }
             }
         }
     }
