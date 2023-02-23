@@ -1,4 +1,4 @@
-package com.example.composedemo
+package com.example.composedemo.wellness
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -66,9 +66,6 @@ fun WellnessScreen(
     Column(modifier = modifier) {
         StatefulCounter()
 
-        val list = remember {
-            wellnessViewModel.tasks
-        }
         WellnessTasksList(
             list = wellnessViewModel.tasks,
             onCheckedTask = { task, checked ->

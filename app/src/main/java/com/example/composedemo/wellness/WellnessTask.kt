@@ -1,4 +1,4 @@
-package com.example.composedemo
+package com.example.composedemo.wellness
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
